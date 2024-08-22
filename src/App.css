@@ -1036,3 +1036,18 @@ footer span a:hover{
 button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorInherit.MuiIconButton-edgeEnd.MuiIconButton-sizeMedium.css-1ei1svh-MuiButtonBase-root-MuiIconButton-root {
   height: 1px;
 }
+
+
+/*Production Styling*/
+header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-1tgyln {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.css-1y1k3rb:hover {
+  background-color: transparent !important;
+}
+
+.MuiDrawer-root.MuiDrawer-docked.css-4ia18f {
+  display: none;
+}
