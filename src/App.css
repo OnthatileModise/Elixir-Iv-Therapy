@@ -1,0 +1,1038 @@
+@import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+.MuiTypography-root.MuiTypography-h5.MuiTypography-gutterBottom.css-h93ljk-MuiTypography-root {
+  font-family: cursive;
+  font-weight: bold;
+}
+
+p.MuiTypography-root.MuiTypography-body2.css-r40f8v-MuiTypography-root {
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-1ri6ub7-MuiPaper-root-MuiCard-root {
+  height: 54em;
+  margin-bottom: 4em
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+svg.elixir {
+  color: white;
+  width: 100vw;
+
+  /*Fill animation  */
+  height: 100vh;
+  animation : fill-svg ease-in-out;
+  animation-duration: 4s;
+}
+
+@keyframes fill-svg {
+  from{
+    fill: white;
+  }
+  to{
+    fill: #2d0843;
+    background: linear-gradient(to top right , #2d0843 30% , white 80%) top right;
+    background-size: 400%;
+    transition: 3s ease-in-out;
+  }
+}
+/*logo styling*/
+.elixir-logo{
+  height: 25vh;
+  background-repeat: no-repeat;
+  background-size: 9em;
+  width: 279px;
+  position: relative;
+  bottom: 100%;
+  margin-right: 87%
+}
+/* navbar styling */
+
+.icon-button{
+   color: purple !important;
+   font-size: 2.2em !important;
+   margin-bottom: 3em;
+}
+
+.css-ciy9n4-MuiPaper-root-MuiAppBar-root{
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+
+.css-3il4n3-MuiPaper-root-MuiAppBar-root{
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 30px 0 5%;
+  font-family: 'Ubuntu', sans-serif;
+  transition: all 0.3s ease;
+  max-height: 13vh;
+  height: 0vh;
+  background-color: transparent;
+}
+
+.navbar.sticky{
+  padding: 15px 0;
+  background: crimson;
+}
+.navbar .max-width{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  height: 4vh;
+}
+.navbar .logo a{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.navbar .logo a span{
+  color: crimson;
+  transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span{
+  color: #fff;
+}
+.navbar .menu li{
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a{
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  color: #2d0843;
+}
+
+.navbar .menu li a:hover{
+  color: purple;
+}
+
+.navbar.sticky .menu li a:hover{
+  color: #fff;
+}
+
+ul.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-right: 10%;
+  position: relative;
+  top: 31%;
+  list-style: none;
+  font-size: xx-large;
+}
+
+.logo-img {
+  width: 10%;
+  position: relative;
+  bottom: 2em;
+  right: 32em;
+}
+
+.h1-background-content {
+  background-color: white;
+  width: 37%;
+  height: 51%;
+  margin-right: 60%;
+  margin-top: 9%;
+  border-radius: 5%;
+  animation: fadeInDownBig linear normal; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  /*animation-timeline: view();*/
+  animation-range: entry;
+}
+
+.background1{
+  animation: fadeIn linear normal; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  /*animation-timeline: view();*/
+  animation-range: entry;
+}
+
+.h1-background-content-header {
+  color: #878282;
+  border-radius: 12px;
+  border: 4px solid #ddd;
+  width: 38%;
+  margin-left: 29%;
+  font-size: 19px;
+}
+
+.h1-background-content-header-p {
+  font-family: 'Roboto', Sans-serif !important;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  margin: 6% 5% 3% 4%;
+  color: #747474;
+  letter-spacing: 0.25px;
+  line-height: 28px;
+}
+
+.deco-line {
+  position: relative;
+  width: 82%;
+  height: 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #93a394;
+}
+
+.logo {
+  /*background-image: url("./components/images/pexels-olia-danilevich-8964902.jpg");*/
+  height: 25vh;
+  background-repeat: no-repeat;
+  background-size: 9em;
+  width: 279px;
+  position: relative;
+  bottom: 27%;
+  right: 56%;
+}
+
+.background-header {
+  color: rgb(159, 155, 155);
+  top: 1.4em;
+  position: absolute;
+  font-family: fangsong;
+  font-size: xxx-large;
+}
+
+section#home {
+  width: 100%;
+  margin-top: 0%;
+}
+
+/*Animations*/
+@keyframes fadeInDownBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@-webkit-keyframes fadeInDownBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.services-section-boxed {
+  max-width: 78%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -6em;
+}
+
+/*.services{*/
+/*  height: 100vh;*/
+/*}*/
+
+.services-card {
+  background-color: #f7f7f7;
+  height: 50vh;
+  width: 19%;
+  position: relative;
+  top: 2em;
+  left: 19%;
+}
+.services-card:hover {
+  animation: pulse infinite normal; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  background-color: blanchedalmond;
+  cursor: pointer;
+  /*animation-timeline: view();*/
+  /*animation-range: entry;*/
+}
+
+.services-h2 {
+  color: rgb(159, 155, 155);
+}
+
+.services-card-img{
+  width: 50%;
+  position: relative;
+  top: 3%;
+}
+
+.services-card-text{
+  color: rgb(159, 155, 155);
+  padding-top: 15%;
+}
+
+.services-card-text2{
+  padding-top: 10%;
+  font-family: sans-serif !important;
+  font-weight: 900 !important;
+  font-size: larger !important;
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+/* all similar content styling codes */
+.contact, footer{
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact .contact-content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+section .title{
+  position: relative;
+  text-align: center;
+  font-size: 62px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: emoji;
+  color: black;
+}
+section .title::before{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 15%;
+  height: 3px;
+  background: #111;
+  transform: translateX(-50%);
+  top: 1.7em;
+}
+section .title::after{
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  font-size: 25px;
+  color: crimson;
+  padding: 0 5px;
+  background: transparent;
+  transform: translateX(-50%);
+}
+
+
+/* contact section styling */
+.contact{
+  animation: heartBeat linear normal; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-range: entry;
+  margin-top: 2%;
+}
+
+.contact .title::after{
+  content: "get in touch";
+}
+.contact .contact-content .column{
+  width: calc(50% - 30px);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contact .contact-content .text{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.contact .contact-content .left p{
+  text-align: justify;
+}
+.contact .contact-content .left .icons{
+  margin: 10px 0;
+}
+.contact .contact-content .row{
+  display: flex;
+  height: 65px;
+  align-items: center;
+}
+.contact .contact-content .row .info{
+  margin-left: 30px;
+}
+.contact .contact-content .row i{
+  font-size: 43px;
+  color: crimson;
+}
+.contact .contact-content .info .head{
+  font-weight: 500;
+}
+.contact .contact-content .info .sub-title{
+  color: #333;
+  font-size: 21px;
+}
+
+.contact .right form .fields{
+  display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.contact .right form .textarea{
+  height: 80px;
+  width: 100%;
+}
+.contact .right form .name{
+  margin-right: 10px;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+  height: 100%;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus{
+  border-color: #b3b3b3;
+}
+.contact .right form .textarea textarea{
+  padding-top: 10px;
+  resize: none;
+}
+.contact .right form .button-area{
+  display: flex;
+  align-items: center;
+}
+
+h2.operating-hours {
+  margin-right: 11%;
+}
+.right form .button-area button{
+  color: #fff;
+  display: block;
+  width: 160px!important;
+  height: 45px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background: crimson;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+.right form .button-area button:hover{
+  color: crimson;
+  background: none;
+}
+
+/* footer section styling */
+footer{
+  background: #111;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+}
+footer span a{
+  color: crimson;
+  text-decoration: none;
+}
+footer span a:hover{
+  text-decoration: underline;
+}
+
+.square {
+  height: 72px;
+  width: 100%;
+  background-color: transparent;
+  border: 4px solid black;
+  margin-right: -31em;
+}
+
+.operating-hours-span{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 6%;
+  color: black;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.operating-hours-h2{
+  font-weight: 800;
+  color: crimson;
+  font-family: fangsong;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: purple;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: purple;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.operating-hours-div{
+  width: 47%;
+}
+
+/*Media Queries*/
+@media (max-width: 1440px) {
+
+  .icon-button{
+    font-size: 1.2em !important;
+  }
+
+  .background-header {
+    color: rgb(159, 155, 155);
+    top: 0.4em;
+    position: absolute;
+    font-family: fangsong;
+    font-size: xxx-large;
+  }
+
+  .h1-background-content-header-p {
+    font-family: 'Roboto', Sans-serif !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 6% 5% 3% 4%;
+    color: #747474;
+    letter-spacing: 0.25px;
+    line-height: 28px;
+  }
+
+  .h1-background-content-header {
+    color: #878282;
+    border-radius: 12px;
+    border: 4px solid #ddd;
+    width: 38%;
+    margin-left: 29%;
+    font-size: 17px;
+  }
+
+  .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 12px 0 5%;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+    max-height: 13vh;
+    height: 0vh;
+    background-color: transparent;
+  }
+
+  .elixir-logo{
+    /*background-image: url(/static/media/shared-image.cb6a184….jpg);*/
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: 8em ;
+    width: 144px;
+    position: relative;
+    bottom: 121%;
+    margin-right: 87%;
+  }
+
+  h2.operating-hours {
+    margin-right: -13%;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 1px 0 5%;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+    max-height: 13vh;
+    height: 0vh;
+    background-color: transparent;
+  }
+
+  .background-header {
+    color: rgb(159, 155, 155);
+    top: 0.5em;
+    position: absolute;
+    font-family: fangsong;
+    font-size: xx-large;
+  }
+
+  .h1-background-content-header-p {
+    font-family: 'Roboto', Sans-serif !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 6% 5% 3% 4%;
+    color: #747474;
+    letter-spacing: 0.25px;
+    line-height: 28px;
+  }
+
+  .services-section-boxed {
+    max-width: 99%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -11em;
+  }
+
+  .services-card-text2 {
+    padding-top: 10%;
+    font-family: sans-serif !important;
+    font-weight: 100 !important;
+    font-size: larger !important;
+  }
+
+  .contact {
+    animation: heartBeat linear normal;
+    animation-duration: 2s;
+    animation-range: entry;
+    margin-top: 4%;
+  }
+  .operating-hours{
+    margin-left: 23%;
+  }
+
+  .operating-hours-div{
+    width: 52%;
+  }
+  .elixir-logo{
+    /*background-image: url(/static/media/shared-image.cb6a184….jpg);*/
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: 8em;
+    width: 279px;
+    position: relative;
+    bottom: 18px;
+    margin-right: 87%
+  }
+}
+
+@media (max-width: 768px) {
+
+  .navbar .max-width {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    height: 0vh;
+  }
+
+  .background-header {
+    color: rgb(159, 155, 155);
+    top: 1em;
+    position: absolute;
+    font-family: fangsong;
+    font-size: xx-large;
+  }
+
+  .h1-background-content {
+    background-color: white;
+    width: 37%;
+    height: 60%;
+    margin-right: 60%;
+    margin-top: 7%;
+    border-radius: 5%;
+    animation: fadeInDownBig linear normal;
+    animation-duration: 2s;
+    /* animation-timeline: view(); */
+    animation-range: entry;
+  }
+
+  .elixir-logo {
+    /* background-image: url(/static/media/shared-image.cb6a184….jpg); */
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: 7em;
+    /* width: 279px; */
+    position: relative;
+    bottom: 100%;
+    margin-right: 83%;
+  }
+
+  .services-section-boxed {
+    max-width: 99%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -8em;
+  }
+
+  .css-h93ljk-MuiTypography-root {
+    margin: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem !important;
+    line-height: 1.334;
+    letter-spacing: 0em;
+    margin-bottom: 0.35em;
+  }
+  .services-card-text2 {
+    padding-top: 10%;
+    font-family: sans-serif !important;
+    font-weight: 100 !important;
+    font-size: large !important;
+  }
+
+  .contact .contact-content .row i {
+    font-size: 26px;
+    color: crimson;
+  }
+  .navbar {
+    display: none;
+    padding: 0;
+    position: absolute;
+  }
+
+  section#home {
+    width: 100%;
+    margin-top: 0%;
+  }
+
+  .background-header {
+    color: rgb(159, 155, 155);
+    position: absolute;
+    top: 2.5em;
+    font-family: fangsong;
+    font-size: xx-large;
+  }
+
+  .h1-background-content {
+    background-color: white;
+    width: 86%;
+    height: 45%;
+    margin-right: 0%;
+    margin-top: 20%;
+    border-radius: 5%;
+    animation: fadeInDownBig linear normal;
+    animation-duration: 2s;
+    /* animation-timeline: view(); */
+    animation-range: entry;
+  }
+
+  .services-section-boxed {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .services-card {
+    background-color: #f7f7f7;
+    height: 66vh;
+    width: 84%;
+    position: relative;
+    top: 1em;
+    left: 26%;
+    background-size: 1em;
+    margin-top: 19px;
+  }
+
+  .services-card-img {
+    width: 26%;
+    position: relative;
+    top: 3%;
+  }
+
+  .section .title {
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: emoji;
+    color: black;
+  }
+
+  .section .title::after {
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 21px;
+    color: crimson;
+    padding: 0 5px;
+    background: transparent;
+    transform: translateX(-50%);
+  }
+
+  .contact .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .contact .contact-content .info .sub-title {
+    color: white;
+    font-size: 21px;
+  }
+
+  .operating-hours-div {
+    width: 99%;
+  }
+
+  .operating-hours {
+    margin-left: 2%;
+  }
+
+  .square {
+    height: 72px;
+    width: 100%;
+    background-color: transparent;
+    border: 4px solid white;
+    margin-right: -27em;
+  }
+
+  .operating-hours-span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6%;
+    color: white;
+    font-weight: 700;
+    font-size: medium;
+  }
+
+  .operating-hours {
+    margin-left: -13%;
+  }
+}
+
+@media (max-width: 425px) {
+
+  .elixir-logo{
+    height: 26vh;
+    background-repeat: no-repeat;
+    width: 99%;
+    margin-right: 10%;
+  }
+
+  .h1-background-content {
+    background-color: white;
+    width: 86%;
+    height: 60%;
+    margin-right: 0%;
+    margin-top: 44%;
+    border-radius: 5%;
+    animation: fadeInDownBig linear normal;
+    animation-duration: 2s;
+    /* animation-timeline: view(); */
+    animation-range: entry;
+  }
+
+  .services-section-boxed {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -4em;
+  }
+
+  .services-card {
+    background-color: #f7f7f7;
+    height: 38vh;
+    width: 84%;
+    position: relative;
+    top: 1em;
+    left: 26%;
+    background-size: 1em;
+    margin-top: 19px;
+  }
+
+  .operating-hours-div {
+    width: 133%;
+  }
+
+  .contact .contact-content .left .icons {
+    margin: 8px 115px 8px 2px;
+  }
+
+  .contact .contact-content .info .sub-title {
+    color: white;
+    font-size: 13px;
+  }
+
+  .square {
+    height: 72px;
+    width: 124%;
+    background-color: transparent;
+    border: 4px solid white;
+    margin-right: -12em;
+  }
+
+  .operating-hours {
+    margin-left: -36%;
+  }
+
+  .contact {
+    animation: heartBeat linear normal;
+    animation-duration: 2s;
+    animation-range: entry;
+    margin-top: 8%;
+  }
+
+}
+
+@media (max-width: 375px) {
+  .h1-background-content {
+    background-color: white;
+    width: 86%;
+    height: 60%;
+    margin-right: 0%;
+    margin-top: 61%;
+    border-radius: 5%;
+    animation: fadeInDownBig linear normal;
+    animation-duration: 2s;
+    /* animation-timeline: view();  */
+    animation-range: entry;
+  }
+
+  .square {
+    height: 72px;
+    width: 151%;
+    background-color: transparent;
+    border: 4px solid white;
+    margin-right: -10em;
+  }
+
+  .operating-hours {
+    margin-left: -37%;
+  }
+
+  .contact {
+    animation: heartBeat linear normal;
+    animation-duration: 2s;
+    animation-range: entry;
+    margin-top: 8%;
+  }
+}
+
+@media (max-width: 320px) {
+
+}
+
+.css-1jgsq37-MuiDrawer-docked {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 0px !important;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-colorInherit.MuiIconButton-edgeEnd.MuiIconButton-sizeMedium.css-1ei1svh-MuiButtonBase-root-MuiIconButton-root {
+  height: 1px;
+}
