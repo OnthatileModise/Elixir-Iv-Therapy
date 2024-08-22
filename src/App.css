@@ -1051,3 +1051,8 @@ header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAp
 .MuiDrawer-root.MuiDrawer-docked.css-4ia18f {
   display: none;
 }
+
+header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-yks4jo {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
