@@ -17,7 +17,7 @@ export const ContactUsSection = () => {
                                 <div className="row">
                                     <i className="fas fa-phone"></i>
                                     <div className="info">
-                                        <div className="sub-title">+27662979493</div>
+                                        <div className="sub-title"><a href="https://wa.me/+27662979493">+27662979493</a></div>
                                     </div>
                                 </div>
                                 <div className="row">
@@ -29,7 +29,7 @@ export const ContactUsSection = () => {
                                 <div className="row">
                                     <i className="fas fa-envelope"></i>
                                     <div className="info">
-                                        <div className="sub-title">elixirtherapy@outlook.com</div>
+                                        <div className="sub-title"><a href="mailto:elixirtherapy@outlook.com">elixirtherapy@outlook.com</a></div>
                                     </div>
                                 </div>
                             </div>
